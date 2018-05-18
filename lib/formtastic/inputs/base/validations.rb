@@ -163,7 +163,7 @@ module Formtastic
         end
 
         def not_required_through_negated_validation?
-          @not_required_through_negated_validation
+          @not_required_through_negated_validation ||= nil
         end
 
         def not_required_through_negated_validation!
